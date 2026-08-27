@@ -1,0 +1,41 @@
+name: Auto Update Subscription
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'  # Каждые 6 часов
+  workflow_dispatch:  # Ручной запуск
+  push:
+    branches: [ main ]
+
+permissions:
+  contents: write
+
+jobs:
+  update-subscription:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: Install dependencies
+        run: |
+          pip install requests
+          pip install pybase64
+      
+      - name: Download popular subscriptions
+        run: |
+          python update_subscription.py
+      
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "Isyzan Bot"
+          git config --global user.email "bot@isyzan-vpn.com"
+          git add happ_subscription.txt subscription.txt servers.json
+          git commit -m "Auto update: $(date +'%Y-%m-%d %H:%M:%S')" || echo "No changes"
+          git push
