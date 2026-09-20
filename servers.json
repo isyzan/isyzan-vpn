@@ -1,115 +1,19 @@
 [
     {
         "protocol": "trojan",
-        "address": "162.159.254.191",
+        "address": "104.18.152.161",
         "port": "443",
         "password": "humanity",
         "sni": "www.ignitelimit.com",
         "name": "Isyzan-001"
     },
     {
-        "protocol": "vless",
-        "address": "50.62.198.30",
-        "port": "8880",
-        "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-        "network": "ws",
-        "security": "none",
-        "sni": "",
-        "path": "/",
-        "host": "vms.lifetime39.workers.dev",
+        "protocol": "trojan",
+        "address": "104.18.152.50",
+        "port": "443",
+        "password": "humanity",
+        "sni": "www.ignitelimit.com",
         "name": "Isyzan-002"
-    },
-    {
-        "protocol": "vless",
-        "address": "104.16.10.2",
-        "port": "443",
-        "uuid": "b2593749-691c-428c-9481-14979cba3446",
-        "network": "ws",
-        "security": "tls",
-        "sni": "xi.tbv.ccwu.cc",
-        "path": "/proxyip=us.xiabibi.cf",
-        "host": "xi.tbv.ccwu.cc",
-        "name": "Isyzan-003"
-    },
-    {
-        "protocol": "trojan",
-        "address": "104.16.174.44",
-        "port": "443",
-        "password": "humanity",
-        "sni": "www.ignitelimit.com",
-        "name": "Isyzan-004"
-    },
-    {
-        "protocol": "vless",
-        "address": "63.141.128.30",
-        "port": "8880",
-        "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-        "network": "ws",
-        "security": "none",
-        "sni": "",
-        "path": "/",
-        "host": "vms.lifetime42.workers.dev",
-        "name": "Isyzan-005"
-    },
-    {
-        "protocol": "trojan",
-        "address": "ip.myip2.qzz.io",
-        "port": "443",
-        "password": "humanity",
-        "sni": "www.ignitelimit.com",
-        "name": "Isyzan-006"
-    },
-    {
-        "protocol": "vless",
-        "address": "194.93.63.246",
-        "port": "443",
-        "uuid": "c5694dc5-39fd-4a92-8430-3837baa522a3",
-        "network": "tcp",
-        "security": "reality",
-        "sni": "pl.bubahero.com",
-        "path": "/",
-        "host": "/?TELEGRAM--MARAMBASHI--MARAMBASHI",
-        "name": "Isyzan-007"
-    },
-    {
-        "protocol": "trojan",
-        "address": "104.18.152.161",
-        "port": "443",
-        "password": "humanity",
-        "sni": "www.ignitelimit.com",
-        "name": "Isyzan-008"
-    },
-    {
-        "protocol": "trojan",
-        "address": "104.18.152.149",
-        "port": "443",
-        "password": "humanity",
-        "sni": "www.ignitelimit.com",
-        "name": "Isyzan-009"
-    },
-    {
-        "protocol": "trojan",
-        "address": "172.67.74.2",
-        "port": "443",
-        "password": "humanity",
-        "sni": "www.ignitelimit.com",
-        "name": "Isyzan-010"
-    },
-    {
-        "protocol": "trojan",
-        "address": "104.16.174.185",
-        "port": "443",
-        "password": "humanity",
-        "sni": "www.ignitelimit.com",
-        "name": "Isyzan-011"
-    },
-    {
-        "protocol": "trojan",
-        "address": "104.16.174.121",
-        "port": "443",
-        "password": "humanity",
-        "sni": "www.ignitelimit.com",
-        "name": "Isyzan-012"
     },
     {
         "protocol": "trojan",
@@ -117,11 +21,99 @@
         "port": "443",
         "password": "humanity",
         "sni": "www.ignitelimit.com",
+        "name": "Isyzan-003"
+    },
+    {
+        "protocol": "trojan",
+        "address": "172.67.149.60",
+        "port": "443",
+        "password": "humanity",
+        "sni": "www.ignitelimit.com",
+        "name": "Isyzan-004"
+    },
+    {
+        "protocol": "trojan",
+        "address": "8.6.112.0",
+        "port": "443",
+        "password": "humanity",
+        "sni": "www.ignitelimit.com",
+        "name": "Isyzan-005"
+    },
+    {
+        "protocol": "trojan",
+        "address": "104.16.174.71",
+        "port": "443",
+        "password": "humanity",
+        "sni": "www.ignitelimit.com",
+        "name": "Isyzan-006"
+    },
+    {
+        "protocol": "trojan",
+        "address": "104.19.229.21",
+        "port": "443",
+        "password": "humanity",
+        "sni": "www.ignitelimit.com",
+        "name": "Isyzan-007"
+    },
+    {
+        "protocol": "trojan",
+        "address": "104.21.8.107",
+        "port": "443",
+        "password": "humanity",
+        "sni": "www.ignitelimit.com",
+        "name": "Isyzan-008"
+    },
+    {
+        "protocol": "vless",
+        "address": "172.64.146.116",
+        "port": "443",
+        "uuid": "2bcfbfba-b446-4ad5-93ad-72af9e008f61",
+        "network": "ws",
+        "security": "tls",
+        "sni": "support.zoom.us.blackshadow.dpdns.org",
+        "path": "/44.209.52.7-443",
+        "host": "support.zoom.us.blackshadow.dpdns.org",
+        "name": "Isyzan-009"
+    },
+    {
+        "protocol": "trojan",
+        "address": "165.215.250.14",
+        "port": "443",
+        "password": "humanity",
+        "sni": "www.ignitelimit.com",
+        "name": "Isyzan-010"
+    },
+    {
+        "protocol": "trojan",
+        "address": "104.18.15.230",
+        "port": "443",
+        "password": "humanity",
+        "sni": "www.ignitelimit.com",
+        "name": "Isyzan-011"
+    },
+    {
+        "protocol": "vless",
+        "address": "104.21.37.55",
+        "port": "443",
+        "uuid": "ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba",
+        "network": "ws",
+        "security": "tls",
+        "sni": "6-m16.cHiaN-MAI-8.kDnS.Fr",
+        "path": "/JRr6VGcSLFc034DC6sDbwyWJLbB",
+        "host": "6-M16.chian-mAI-8.KdNs.fR",
+        "name": "Isyzan-012"
+    },
+    {
+        "protocol": "trojan",
+        "address": "104.18.152.225",
+        "port": "443",
+        "password": "humanity",
+        "sni": "www.ignitelimit.com",
         "name": "Isyzan-013"
     },
     {
         "protocol": "trojan",
-        "address": "104.18.152.159",
+        "address": "104.16.174.14",
         "port": "443",
         "password": "humanity",
         "sni": "www.ignitelimit.com",
@@ -129,7 +121,7 @@
     },
     {
         "protocol": "trojan",
-        "address": "104.17.111.8",
+        "address": "104.18.152.208",
         "port": "443",
         "password": "humanity",
         "sni": "www.ignitelimit.com",
@@ -137,43 +129,51 @@
     },
     {
         "protocol": "vless",
-        "address": "45.40.151.30",
+        "address": "172.66.132.196",
         "port": "8880",
-        "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+        "uuid": "f32b0ea8-5b9f-4ee2-b20c-0bdfd2057e1d",
         "network": "ws",
         "security": "none",
         "sni": "",
-        "path": "/",
-        "host": "vms.lifetime42.workers.dev",
+        "path": "/pyip=ProxyIP.KR.CMLiussss.net",
+        "host": "throbbing-shape-b190.478-57a.workers.dev",
         "name": "Isyzan-016"
     },
     {
-        "protocol": "trojan",
-        "address": "join-telegram-channel.tirexnet.kdns.fr",
+        "protocol": "vless",
+        "address": "31.76.39.153",
         "port": "443",
-        "password": "humanity",
-        "sni": "www.ignitelimit.com",
+        "uuid": "c5694dc5-39fd-4a92-8430-3837baa522a3",
+        "network": "tcp",
+        "security": "reality",
+        "sni": "gb.superbuba.top",
+        "path": "/",
+        "host": "",
         "name": "Isyzan-017"
     },
     {
         "protocol": "trojan",
-        "address": "104.16.174.34",
+        "address": "172.67.74.2",
         "port": "443",
         "password": "humanity",
         "sni": "www.ignitelimit.com",
         "name": "Isyzan-018"
     },
     {
-        "protocol": "vless",
-        "address": "edge6.multikons.shop",
+        "protocol": "trojan",
+        "address": "104.16.174.121",
         "port": "443",
-        "uuid": "4f8a1d19-4d21-47f5-816e-a8f475fbd3f7",
-        "network": "tcp",
-        "security": "reality",
-        "sni": "edge6.multikons.shop",
-        "path": "/",
-        "host": "",
+        "password": "humanity",
+        "sni": "www.ignitelimit.com",
         "name": "Isyzan-019"
+    },
+    {
+        "protocol": "trojan",
+        "address": "86.38.214.205",
+        "port": "443",
+        "password": "humanity",
+        "sni": "www.ignitelimit.com",
+        "name": "Isyzan-020"
     },
     {
         "protocol": "vmess",
@@ -186,7 +186,7 @@
         "host": "",
         "tls": "",
         "sni": "",
-        "name": "Isyzan-020"
+        "name": "Isyzan-021"
     },
     {
         "protocol": "vmess",
@@ -199,7 +199,7 @@
         "host": "irsoft.sytes.net",
         "tls": "tls",
         "sni": "",
-        "name": "Isyzan-021"
+        "name": "Isyzan-022"
     },
     {
         "protocol": "vmess",
@@ -212,7 +212,7 @@
         "host": "www.darkroom.lol",
         "tls": "",
         "sni": "www.darkroom.lol",
-        "name": "Isyzan-022"
+        "name": "Isyzan-023"
     },
     {
         "protocol": "vmess",
@@ -225,7 +225,7 @@
         "host": "server31.beheshtbaneh.com",
         "tls": "",
         "sni": "",
-        "name": "Isyzan-023"
+        "name": "Isyzan-024"
     },
     {
         "protocol": "vmess",
@@ -238,7 +238,7 @@
         "host": "data-us-v1.shwjfkw.cn",
         "tls": "",
         "sni": "",
-        "name": "Isyzan-024"
+        "name": "Isyzan-025"
     },
     {
         "protocol": "vmess",
@@ -251,7 +251,7 @@
         "host": "server26.beheshtbaneh.com",
         "tls": "",
         "sni": "",
-        "name": "Isyzan-025"
+        "name": "Isyzan-026"
     },
     {
         "protocol": "vmess",
@@ -264,7 +264,7 @@
         "host": "zheshiscp.com",
         "tls": "tls",
         "sni": "zheshiscp.com",
-        "name": "Isyzan-026"
+        "name": "Isyzan-027"
     },
     {
         "protocol": "vmess",
@@ -277,7 +277,7 @@
         "host": "server32.beheshtbaneh.com",
         "tls": "",
         "sni": "",
-        "name": "Isyzan-027"
+        "name": "Isyzan-028"
     },
     {
         "protocol": "vmess",
@@ -290,7 +290,7 @@
         "host": "",
         "tls": "",
         "sni": "",
-        "name": "Isyzan-028"
+        "name": "Isyzan-029"
     },
     {
         "protocol": "trojan",
@@ -298,7 +298,7 @@
         "port": "2716",
         "password": "BxceQaOe",
         "sni": "t.me/ripaojiedian",
-        "name": "Isyzan-029"
+        "name": "Isyzan-030"
     },
     {
         "protocol": "trojan",
@@ -306,7 +306,7 @@
         "port": "51391",
         "password": "BxceQaOe",
         "sni": "t.me/ripaojiedian",
-        "name": "Isyzan-030"
+        "name": "Isyzan-031"
     },
     {
         "protocol": "trojan",
@@ -314,7 +314,7 @@
         "port": "3893",
         "password": "BxceQaOe",
         "sni": "t.me%2Fripaojiedian",
-        "name": "Isyzan-031"
+        "name": "Isyzan-032"
     },
     {
         "protocol": "trojan",
@@ -322,7 +322,7 @@
         "port": "41142",
         "password": "BxceQaOe",
         "sni": "t.me%2Fripaojiedian",
-        "name": "Isyzan-032"
+        "name": "Isyzan-033"
     },
     {
         "protocol": "trojan",
@@ -330,6 +330,6 @@
         "port": "443",
         "password": "BxceQaOe",
         "sni": "t.me/ripaojiedian",
-        "name": "Isyzan-033"
+        "name": "Isyzan-034"
     }
 ]
