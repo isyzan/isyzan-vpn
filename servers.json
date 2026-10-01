@@ -1,6 +1,18 @@
 [
     {
         "protocol": "vless",
+        "address": "jp.sofast.live",
+        "port": "52683",
+        "uuid": "399b6b23-cc40-4831-a494-61948e2df133",
+        "network": "tcp",
+        "security": "none",
+        "sni": "",
+        "path": "/",
+        "host": "",
+        "name": "Isyzan-001"
+    },
+    {
+        "protocol": "vless",
         "address": "us22.sofast.live",
         "port": "58011",
         "uuid": "0afc6426-606c-48e7-bd70-3c424a416842",
@@ -9,31 +21,7 @@
         "sni": "",
         "path": "/",
         "host": "",
-        "name": "Isyzan-001"
-    },
-    {
-        "protocol": "vless",
-        "address": "skk.moe",
-        "port": "8880",
-        "uuid": "8ddedcc7-6c4e-4df3-a190-ac40926f6694",
-        "network": "ws",
-        "security": "none",
-        "sni": "",
-        "path": "/pyip=ProxyIP.JP.CMLiussss.net",
-        "host": "late-boat-fbd7.152-de6.workers.dev",
         "name": "Isyzan-002"
-    },
-    {
-        "protocol": "vless",
-        "address": "yaruss.stopingiphatered.shop",
-        "port": "443",
-        "uuid": "4bdeee92-97e8-414d-bef6-ec1d5e2ab73b",
-        "network": "tcp",
-        "security": "reality",
-        "sni": "yaruss.stopingiphatered.shop",
-        "path": "/",
-        "host": "",
-        "name": "Isyzan-003"
     },
     {
         "protocol": "vless",
@@ -45,43 +33,31 @@
         "sni": "jp3.yohototo.top",
         "path": "/tyxyws",
         "host": "jp3.yohototo.top",
+        "name": "Isyzan-003"
+    },
+    {
+        "protocol": "vless",
+        "address": "78.159.246.110",
+        "port": "443",
+        "uuid": "bc5ec86c-3e65-4272-994c-59a924c72a68",
+        "network": "ws",
+        "security": "tls",
+        "sni": "fbsv6.guardora.pro",
+        "path": "/ws",
+        "host": "fbsv6.guardora.pro",
         "name": "Isyzan-004"
     },
     {
         "protocol": "vless",
-        "address": "188.114.98.0",
-        "port": "80",
-        "uuid": "M",
-        "network": "ws",
-        "security": "none",
-        "sni": "",
-        "path": "/CooonfigCooonfigCooonfigCooonfigCooonfig",
-        "host": "msjsi.azazilvpn.sbs.",
-        "name": "Isyzan-005"
-    },
-    {
-        "protocol": "vless",
-        "address": "172.66.47.45",
+        "address": "103.31.4.10",
         "port": "443",
-        "uuid": "e56059f1-5a1a-4d0a-a2d0-58ecb4eb2f3f",
+        "uuid": "77dc177b-79d9-49ac-92e1-2f1011faa5e3",
         "network": "ws",
         "security": "tls",
-        "sni": "EZAcCESS-pROjECt-F62c30.PAGES.dEv",
-        "path": "/eyJqdW5rIjoiZWlPODVjTnhnaSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560",
-        "host": "ezaccess-project-f62c30.pages.dev",
-        "name": "Isyzan-006"
-    },
-    {
-        "protocol": "vless",
-        "address": "id-nl-01.mintrocket.org",
-        "port": "443",
-        "uuid": "f0a52dd3-4377-4402-a450-210bc81bcf25",
-        "network": "tcp",
-        "security": "reality",
-        "sni": "id-nl-01.mintrocket.org",
-        "path": "/",
-        "host": "",
-        "name": "Isyzan-007"
+        "sni": "f871a986.69lover.site",
+        "path": "/api/v2/b8ee4ba356df307c/stream",
+        "host": "f871a986.69lover.site",
+        "name": "Isyzan-005"
     },
     {
         "protocol": "vmess",
@@ -94,7 +70,7 @@
         "host": "",
         "tls": "",
         "sni": "",
-        "name": "Isyzan-008"
+        "name": "Isyzan-006"
     },
     {
         "protocol": "vmess",
@@ -107,7 +83,7 @@
         "host": "irsoft.sytes.net",
         "tls": "tls",
         "sni": "",
-        "name": "Isyzan-009"
+        "name": "Isyzan-007"
     },
     {
         "protocol": "vmess",
@@ -120,7 +96,7 @@
         "host": "www.darkroom.lol",
         "tls": "",
         "sni": "www.darkroom.lol",
-        "name": "Isyzan-010"
+        "name": "Isyzan-008"
     },
     {
         "protocol": "vmess",
@@ -133,7 +109,7 @@
         "host": "server31.beheshtbaneh.com",
         "tls": "",
         "sni": "",
-        "name": "Isyzan-011"
+        "name": "Isyzan-009"
     },
     {
         "protocol": "vmess",
@@ -146,7 +122,7 @@
         "host": "data-us-v1.shwjfkw.cn",
         "tls": "",
         "sni": "",
-        "name": "Isyzan-012"
+        "name": "Isyzan-010"
     },
     {
         "protocol": "vmess",
@@ -159,7 +135,7 @@
         "host": "server26.beheshtbaneh.com",
         "tls": "",
         "sni": "",
-        "name": "Isyzan-013"
+        "name": "Isyzan-011"
     },
     {
         "protocol": "vmess",
@@ -172,7 +148,7 @@
         "host": "zheshiscp.com",
         "tls": "tls",
         "sni": "zheshiscp.com",
-        "name": "Isyzan-014"
+        "name": "Isyzan-012"
     },
     {
         "protocol": "vmess",
@@ -185,7 +161,7 @@
         "host": "server32.beheshtbaneh.com",
         "tls": "",
         "sni": "",
-        "name": "Isyzan-015"
+        "name": "Isyzan-013"
     },
     {
         "protocol": "vmess",
@@ -198,7 +174,7 @@
         "host": "",
         "tls": "",
         "sni": "",
-        "name": "Isyzan-016"
+        "name": "Isyzan-014"
     },
     {
         "protocol": "trojan",
@@ -206,7 +182,7 @@
         "port": "12103",
         "password": "AA885B42-133C-3828-FB69-E45105C06092",
         "sni": "m.ctrip.com",
-        "name": "Isyzan-017"
+        "name": "Isyzan-015"
     },
     {
         "protocol": "trojan",
@@ -214,7 +190,7 @@
         "port": "10115",
         "password": "AA885B42-133C-3828-FB69-E45105C06092",
         "sni": "m.ctrip.com",
-        "name": "Isyzan-018"
+        "name": "Isyzan-016"
     },
     {
         "protocol": "trojan",
@@ -222,7 +198,7 @@
         "port": "12107",
         "password": "AA885B42-133C-3828-FB69-E45105C06092",
         "sni": "m.ctrip.com",
-        "name": "Isyzan-019"
+        "name": "Isyzan-017"
     },
     {
         "protocol": "trojan",
@@ -230,7 +206,7 @@
         "port": "12102",
         "password": "AA885B42-133C-3828-FB69-E45105C06092",
         "sni": "m.ctrip.com",
-        "name": "Isyzan-020"
+        "name": "Isyzan-018"
     },
     {
         "protocol": "trojan",
@@ -238,7 +214,7 @@
         "port": "10125",
         "password": "AA885B42-133C-3828-FB69-E45105C06092",
         "sni": "m.ctrip.com",
-        "name": "Isyzan-021"
+        "name": "Isyzan-019"
     },
     {
         "protocol": "trojan",
@@ -246,7 +222,7 @@
         "port": "10135",
         "password": "AA885B42-133C-3828-FB69-E45105C06092",
         "sni": "m.ctrip.com",
-        "name": "Isyzan-022"
+        "name": "Isyzan-020"
     },
     {
         "protocol": "trojan",
@@ -254,7 +230,7 @@
         "port": "10155",
         "password": "AA885B42-133C-3828-FB69-E45105C06092",
         "sni": "m.ctrip.com",
-        "name": "Isyzan-023"
+        "name": "Isyzan-021"
     },
     {
         "protocol": "trojan",
@@ -262,7 +238,7 @@
         "port": "12122",
         "password": "AA885B42-133C-3828-FB69-E45105C06092",
         "sni": "m.ctrip.com",
-        "name": "Isyzan-024"
+        "name": "Isyzan-022"
     },
     {
         "protocol": "trojan",
@@ -270,7 +246,7 @@
         "port": "12142",
         "password": "AA885B42-133C-3828-FB69-E45105C06092",
         "sni": "m.ctrip.com",
-        "name": "Isyzan-025"
+        "name": "Isyzan-023"
     },
     {
         "protocol": "trojan",
@@ -278,6 +254,6 @@
         "port": "11171",
         "password": "AA885B42-133C-3828-FB69-E45105C06092",
         "sni": "m.ctrip.com",
-        "name": "Isyzan-026"
+        "name": "Isyzan-024"
     }
 ]
